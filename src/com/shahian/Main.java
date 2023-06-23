@@ -10,7 +10,6 @@ public class Main {
         String directoryPath = "G:\\هیئت پرورش اندام شهرری\\دعوت نامه مهمان ها جام قهرمانان 15 تیر 1402";
         // Get a reference to the directory
         File directory = new File(directoryPath);
-
         // Get an array of all the image files in the directory
         File[] imageFiles = directory.listFiles((dir, name) ->
                 name.toLowerCase().endsWith(".jpg") ||
