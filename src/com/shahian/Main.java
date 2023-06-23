@@ -5,12 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-
     public static void main(String[] args) {
         // Set the path to the directory containing your images
         String directoryPath = "G:\\هیئت پرورش اندام شهرری\\دعوت نامه مهمان ها جام قهرمانان 15 تیر 1402";
-
-
         // Get a reference to the directory
         File directory = new File(directoryPath);
 
